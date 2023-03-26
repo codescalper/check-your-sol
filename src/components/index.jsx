@@ -3,6 +3,7 @@ import AddressForm from '../components/AddressForm';
 import * as Web3 from '@solana/web3.js';
 import './index.css';
 
+
 const Home = () => {
   const [balance, setBalance] = useState(0)
   const [address, setAddress] = useState('')
@@ -29,6 +30,7 @@ const Home = () => {
   return (
     <>
       <div className="container">
+    
         <header className="header">
           <p className="title">
             Enter Your Solana Address
