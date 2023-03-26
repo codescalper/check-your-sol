@@ -4,7 +4,8 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-  
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(197,71,203,1) 50%, rgba(252,176,69,1) 100%);
   }
   
   .header {
@@ -15,11 +16,14 @@
     font-size: 28px;
     margin-bottom: 20px;
     font-weight: bold;
+    color: white;
+    font-family: Poppins;
   }
   
   .address, .balance, .executable {
     font-size: 20px;
     margin-bottom: 10px;
     font-weight: bold;
+    color: white;
   }
   
