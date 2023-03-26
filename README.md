@@ -15,7 +15,7 @@
     </ul>
     <h2>How to Run the App</h2>
     <ol>
-      <li>Clone the repository from  <pre><code>git clone  https://github.com/codescalper/check-your-sol</li>
+      <li>Clone the repository from  <pre><code>git clone  https://github.com/codescalper/check-your-sol</pre></code></li>
       <li>Install dependencies using <code>npm install</code></li>
       <li>Run the app using <code>npm start</code></li>
     </ol>
