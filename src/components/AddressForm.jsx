@@ -1,7 +1,7 @@
-import React, { ChangeEvent, FormEvent, useState } from 'react';
+import React, { useState } from 'react';
+import './AddressForm.css';
 
 function AddressForm(props) {
-
   const [values, setValues] = useState({
     address: '',
   });
@@ -20,11 +20,11 @@ function AddressForm(props) {
   };
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-      <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column' }}>
+    <div className="address-form">
+      <form onSubmit={handleSubmit} className="form">
         <input
           id="public-key"
-          style={{ padding: '10px', marginBottom: '20px', borderRadius: '5px', border: 'none', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)', width: '80%', maxWidth: '400px' }}
+          className="input"
           type="text"
           placeholder="Public Address"
           name="firstName"
@@ -32,7 +32,7 @@ function AddressForm(props) {
           onChange={handleAddressInputChange}
         />
         <br />
-        <button type="submit" style={{ padding: '10px 20px', backgroundColor: '#32a852', borderRadius: '5px', border: 'none', color: '#fff', fontWeight: 'bold' }}>
+        <button type="submit" className="button">
           Check SOL Balance
         </button>
       </form>

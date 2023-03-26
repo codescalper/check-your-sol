@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import AddressForm from '../components/AddressForm';
 import * as Web3 from '@solana/web3.js';
+import './index.css';
 
 const Home = () => {
   const [balance, setBalance] = useState(0)
@@ -26,18 +27,20 @@ const Home = () => {
   }
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
-      <header style={{ textAlign: 'center' }}>
-        <p style={{ fontSize: '28px', marginBottom: '20px', fontWeight: 'bold' }}>
-          Enter Your Solana Address
-        </p>
-        <AddressForm handler={addressSubmittedHandler} />
-        <p style={{ fontSize: '20px', marginBottom: '10px', fontWeight: 'bold' }}>{`Address: ${address}`}</p>
-        <p style={{ fontSize: '20px', marginBottom: '10px', fontWeight: 'bold' }}>{`Balance: ${balance} SOL`}</p>
-        <p style={{ fontSize: '20px', fontWeight: 'bold' }}>{`Is it executable? ${isExecutable ? 'Yes' : 'No'}`}</p>
+    <>
+      <div className="container">
+        <header className="header">
+          <p className="title">
+            Enter Your Solana Address
+          </p>
+          <AddressForm handler={addressSubmittedHandler} />
+          <p className="address">{`Address: ${address}`}</p>
+          <p className="balance">{`Balance: ${balance} SOL`}</p>
+          <p className="executable">{`Is it executable? ${isExecutable ? 'Yes' : 'No'}`}</p>
         </header>
-</div>
-)
+      </div>
+    </>
+  )
 }
 
 export default Home;
