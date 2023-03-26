@@ -1,70 +1,33 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   <h1>Check Your Solana on Devnet</h1>
+   <img src ="https://gcdnb.pbrd.co/images/7ZMu0A9u5DGl.png?o=1" alt='check-your-sol-codescalper' />
+    <p>
+      This webpage allows you to check the balance and executable status of a Solana address.
+    </p>
+    <h2>Tech Stack</h2>
+    <ul>
+      <li>React</li>
+      <li>@solana/web3.js</li>
+    </ul>
+    <h2>Features</h2>
+    <ul>
+      <li>Check the balance of a Solana address on Devnet</li>
+      <li>Determine if an address is executable</li>
+    </ul>
+    <h2>How to Run the App</h2>
+    <ol>
+      <li>Clone the repository from  <pre><code>git clone  https://github.com/codescalper/check-your-sol</li>
+      <li>Install dependencies using <code>npm install</code></li>
+      <li>Run the app using <code>npm start</code></li>
+    </ol>
+    <h2>Contributing</h2>
+    <p>
+      If you'd like to contribute to this project, feel free to open a pull request or issue on the
+      <a href="https://github.com/codescalper/check-your-sol">GitHub repository</a>.
+    </p>
+    	<h2>Social Links</h2>
+	<ul>
+		<li><a href="https://twitter.com/mayankontweeter" target='_blank'>Twitter</a></li>
+		<li><a href="https://www.instagram.com/mayankonweb/" target='_blank'>Instagram</a></li>
+		<li><a href="https://www.youtube.com/@mhtcetshalamayanksingh" target='_blank' >Youtube </a> </li>
+		<li><a href="https://www.linkedin.com/in/mayank-singh-613a41183/" target='_blank'>Linkedin</a></li>
+	</ul>
